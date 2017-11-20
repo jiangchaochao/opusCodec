@@ -1,0 +1,85 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+AudioSource	yview/cn/two/MainActivity.java	/^    public int AudioSource;      \/\/音频采集的输入源$/;"	f	class:MainActivity
+FileSize	yview/cn/two/FileWrite.java	/^    private int FileSize = 0;$/;"	f	class:FileWrite	file:
+FileSizel	yview/cn/two/FileWrite.java	/^    public int FileSizel()$/;"	m	class:FileWrite
+FileWrite	yview/cn/two/FileWrite.java	/^public class FileWrite {$/;"	c
+Fram	yview/cn/two/MainActivity.java	/^    private int Fram;               \/\/fps$/;"	f	class:MainActivity	file:
+GetBandWidth	example/hellojni/OpusTools.java	/^    public native int GetBandWidth(byte szByData[]);$/;"	m	class:OpusTools
+GetChannels	example/hellojni/OpusTools.java	/^    public native int GetChannels(byte szByData[]);$/;"	m	class:OpusTools
+GetSamplesPerFrame	example/hellojni/OpusTools.java	/^    public native int GetSamplesPerFrame(byte szByData[], int lSamplingRate);$/;"	m	class:OpusTools
+Listhenner	yview/cn/two/MainActivity.java	/^   class Listhenner implements View.OnClickListener{$/;"	c	class:MainActivity
+MainActivity	yview/cn/two/MainActivity.java	/^public class MainActivity extends AppCompatActivity {$/;"	c
+OpusDecInit	example/hellojni/OpusTools.java	/^    public native int OpusDecInit(int lSamplingRate, int lChannels);$/;"	m	class:OpusTools
+OpusDecode	example/hellojni/OpusTools.java	/^    public native short [] OpusDecode(byte szByData[], int llenth, int lFrame_size, int lDecode_fec);$/;"	m	class:OpusTools
+OpusDecoderDestroy	example/hellojni/OpusTools.java	/^    public native void OpusDecoderDestroy();$/;"	m	class:OpusTools
+OpusEncInit	example/hellojni/OpusTools.java	/^    public native int OpusEncInit(int lSamplingRate, int lChannels, int lBitRate, int lCodedChannel, int lApplication);$/;"	m	class:OpusTools
+OpusEncode	example/hellojni/OpusTools.java	/^    public native byte []  OpusEncode(short szPcmData[], int lFrame_size,  int max_data_bytes);$/;"	m	class:OpusTools
+OpusEncoderDestroy	example/hellojni/OpusTools.java	/^    public native void OpusEncoderDestroy();$/;"	m	class:OpusTools
+OpusTools	example/hellojni/OpusTools.java	/^public class OpusTools {$/;"	c
+SetFilePath	yview/cn/two/FileWrite.java	/^    public void SetFilePath(String filePath){$/;"	m	class:FileWrite
+WavFileHeader	yview/cn/two/WavFileHeader.java	/^    public WavFileHeader() {$/;"	m	class:WavFileHeader
+WavFileHeader	yview/cn/two/WavFileHeader.java	/^    public WavFileHeader(int sampleRateInHz, int bitsPerSample, int channels) {$/;"	m	class:WavFileHeader
+WavFileHeader	yview/cn/two/WavFileHeader.java	/^public class WavFileHeader {$/;"	c
+audioFormat	yview/cn/two/MainActivity.java	/^    public int audioFormat;       \/\/数据位宽$/;"	f	class:MainActivity
+audioFormat	yview/cn/two/audioRead.java	/^    private int audioFormat;$/;"	f	class:audioRead	file:
+audioRead	yview/cn/two/audioRead.java	/^    public audioRead(AudioRecord audioRecord, int framBufferSize, int sampleRateInHz, int audioFormat, int channelConfig) {$/;"	m	class:audioRead
+audioRead	yview/cn/two/audioRead.java	/^public class audioRead implements Runnable {$/;"	c
+audioRecord	yview/cn/two/MainActivity.java	/^    private AudioRecord audioRecord;    \/\/音频采集对象$/;"	f	class:MainActivity	file:
+audioRecord	yview/cn/two/audioRead.java	/^    private AudioRecord audioRecord;$/;"	f	class:audioRead	file:
+audioread	yview/cn/two/MainActivity.java	/^    private audioRead audioread;$/;"	f	class:MainActivity	file:
+bufferSizeInBytes	yview/cn/two/audioRead.java	/^    private int bufferSizeInBytes;$/;"	f	class:audioRead	file:
+button	yview/cn/two/MainActivity.java	/^    private Button button;$/;"	f	class:MainActivity	file:
+button1	yview/cn/two/MainActivity.java	/^    private Button button1;$/;"	f	class:MainActivity	file:
+channelConfig	yview/cn/two/MainActivity.java	/^    public int channelConfig;     \/\/通道数的配置$/;"	f	class:MainActivity
+channelConfig	yview/cn/two/audioRead.java	/^    private int channelConfig;$/;"	f	class:audioRead	file:
+chronometer	yview/cn/two/MainActivity.java	/^    private Chronometer chronometer;$/;"	f	class:MainActivity	file:
+closefile	yview/cn/two/FileWrite.java	/^    public boolean closefile() throws IOException {$/;"	m	class:FileWrite
+com.example.hellojni	example/hellojni/OpusTools.java	/^package com.example.hellojni;$/;"	p
+com.yview.cn.two	yview/cn/two/FileWrite.java	/^package com.yview.cn.two;$/;"	p
+com.yview.cn.two	yview/cn/two/MainActivity.java	/^package com.yview.cn.two;$/;"	p
+com.yview.cn.two	yview/cn/two/WavFileHeader.java	/^package com.yview.cn.two;$/;"	p
+com.yview.cn.two	yview/cn/two/audioRead.java	/^package com.yview.cn.two;$/;"	p
+filePath	yview/cn/two/FileWrite.java	/^    private String filePath;$/;"	f	class:FileWrite	file:
+fileWrite	yview/cn/two/audioRead.java	/^    private FileWrite fileWrite;$/;"	f	class:audioRead	file:
+flag	yview/cn/two/audioRead.java	/^    private int flag = 0;$/;"	f	class:audioRead	file:
+flag	yview/cn/two/audioRead.java	/^    public void flag(int num)$/;"	m	class:audioRead
+framBufferSize	yview/cn/two/MainActivity.java	/^    private int framBufferSize;$/;"	f	class:MainActivity	file:
+getRealLength	yview/cn/two/audioRead.java	/^    public static int getRealLength(byte[] a){$/;"	m	class:audioRead
+intToByteArray	yview/cn/two/FileWrite.java	/^    private static byte[] intToByteArray(int data) {$/;"	m	class:FileWrite	file:
+mAudioFormat	yview/cn/two/WavFileHeader.java	/^    public short mAudioFormat = 1;        \/\/表示 后面data kuai 的数据格式，1 表示 PCM格式$/;"	f	class:WavFileHeader
+mAudioTrack	yview/cn/two/audioRead.java	/^    private AudioTrack mAudioTrack;$/;"	f	class:audioRead	file:
+mBitsPerSample	yview/cn/two/WavFileHeader.java	/^    public short mBitsPerSample = 8;      \/\/wei kuan$/;"	f	class:WavFileHeader
+mBlockAlign	yview/cn/two/WavFileHeader.java	/^    public short mBlockAlign = 0;         \/\/shu jv kuai de tiao zheng shu$/;"	f	class:WavFileHeader
+mBuffSize	yview/cn/two/audioRead.java	/^    private int mBuffSize;$/;"	f	class:audioRead	file:
+mByteRate	yview/cn/two/WavFileHeader.java	/^    public int mByteRate = 0;             \/\/ chuan shu su lv$/;"	f	class:WavFileHeader
+mChunkID	yview/cn/two/WavFileHeader.java	/^    public String mChunkID = "RIFF"; \/\/规范WAVE格式以RIFF标头开始$/;"	f	class:WavFileHeader
+mChunkSize	yview/cn/two/WavFileHeader.java	/^    public int mChunkSize = 0;       \/\/整个 wav 文件的字节数 （除去前8个字节   jie）$/;"	f	class:WavFileHeader
+mDataOutputStream	yview/cn/two/FileWrite.java	/^    private DataOutputStream mDataOutputStream;$/;"	f	class:FileWrite	file:
+mFormat	yview/cn/two/WavFileHeader.java	/^    public String mFormat = "WAVE";  \/\/标 表示这是一个wav文件$/;"	f	class:WavFileHeader
+mMaxBufferSize	yview/cn/two/MainActivity.java	/^    private int mMaxBufferSize;$/;"	f	class:MainActivity	file:
+mMinBufferSize	yview/cn/two/MainActivity.java	/^    public int mMinBufferSize;    \/\/缓缓缓还 缓  缓 冲区大小$/;"	f	class:MainActivity
+mNumChannel	yview/cn/two/WavFileHeader.java	/^    public short mNumChannel = 1;         \/\/通道数，1表示单声道，2表示立体声$/;"	f	class:WavFileHeader
+mSampleRate	yview/cn/two/WavFileHeader.java	/^    public int mSampleRate = 8000;        \/\/cai yang lv$/;"	f	class:WavFileHeader
+mSubChunk1ID	yview/cn/two/WavFileHeader.java	/^    public String mSubChunk1ID = "fmt ";  \/\/表示音频格式块$/;"	f	class:WavFileHeader
+mSubChunk1Size	yview/cn/two/WavFileHeader.java	/^    public int mSubChunk1Size = 16;       \/\/表示除去fmt kuai  的前8个zi jie 的大小$/;"	f	class:WavFileHeader
+mSubChunk2ID	yview/cn/two/WavFileHeader.java	/^    public String mSubChunk2ID = "data";  \/\/biao ji zhe shi shu ju kuai$/;"	f	class:WavFileHeader
+mSubChunk2Size	yview/cn/two/WavFileHeader.java	/^    public int mSubChunk2Size = 0;    \/\/shu ju chang du$/;"	f	class:WavFileHeader
+onClick	yview/cn/two/MainActivity.java	/^       public void onClick(View v) {$/;"	m	class:MainActivity.Listhenner
+onCreate	yview/cn/two/MainActivity.java	/^    protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:MainActivity
+openfile	yview/cn/two/FileWrite.java	/^    public boolean openfile(int sampleRateInHz, int bitsPerSample, int channels) throws IOException{$/;"	m	class:FileWrite
+run	yview/cn/two/audioRead.java	/^    public void run() {$/;"	m	class:audioRead
+sampleRateInHz	yview/cn/two/MainActivity.java	/^    public int sampleRateInHz;    \/\/采样率$/;"	f	class:MainActivity
+sampleRateInHz	yview/cn/two/audioRead.java	/^    private int sampleRateInHz;$/;"	f	class:audioRead	file:
+shortToByteArray	yview/cn/two/FileWrite.java	/^    private static byte[] shortToByteArray(short data) {$/;"	m	class:FileWrite	file:
+thread	yview/cn/two/MainActivity.java	/^    private  Thread thread;$/;"	f	class:MainActivity	file:
+toByteArray	yview/cn/two/audioRead.java	/^    public static byte[] toByteArray(short[] src) {$/;"	m	class:audioRead
+toShortArray	yview/cn/two/audioRead.java	/^    public static short[] toShortArray(byte[] src) {$/;"	m	class:audioRead
+wavFileHeader	yview/cn/two/FileWrite.java	/^    private WavFileHeader wavFileHeader;$/;"	f	class:FileWrite	file:
+writeDate	yview/cn/two/FileWrite.java	/^    public boolean writeDate(byte[] buffer, int offset, int lens) throws IOException {$/;"	m	class:FileWrite
+writeFileSize	yview/cn/two/FileWrite.java	/^    public boolean writeFileSize() throws IOException {$/;"	m	class:FileWrite
+writeHeader	yview/cn/two/FileWrite.java	/^   public boolean writeHeader(int sampleRateInHz, int bitsPerSample, int channels){$/;"	m	class:FileWrite
